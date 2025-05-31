@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hifly International Logistics Co., Ltd. - Company Profile</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      color: #004080;
+      border-bottom: 2px solid #004080;
+      padding-bottom: 8px;
+    }
+    .service-list {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+    .service-item {
+      flex: 1;
+      background: white;
+      margin: 0 10px;
+      padding: 20px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+      border-radius: 6px;
+      text-align: center;
+    }
+    .service-item h3 {
+      margin-top: 0;
+      color: #007acc;
+    }
+    footer {
+      background: #222;
+      color: #aaa;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 50px;
+      font-size: 0.9em;
+    }
+    @media(max-width: 720px) {
+      .service-list {
+        flex-direction: column;
+      }
+      .service-item {
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hifly International Logistics Co., Ltd.</h1>
+    <nav>
+      <a href="#about">About Us</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We are a professional logistics and freight forwarding company committed to providing efficient and secure international shipping services worldwide.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="service-list">
+      <div class="service-item">
+        <h3>Sea Freight</h3>
+        <p>Offering door-to-door sea freight solutions covering major global ports.</p>
+      </div>
+      <div class="service-item">
+        <h3>Air Freight</h3>
+        <p>Fast and secure international air freight service, ideal for urgent shipments.</p>
+      </div>
+      <div class="service-item">
+        <h3>Customs Clearance</h3>
+        <p>Professional customs clearance team ensuring smooth and timely delivery.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>
+      <strong>Mike Wang | Sales Manager</strong><br />
+      Tel.: WhatsApp +86 19937768735 / +86 13633851382<br />
+      WeChat: Hi--Mike<br />
+      Email: <a href="mailto:mike@hiflylogistics.com">mike@hiflylogistics.com</a><br />
+      Website: <a href="http://www.hiflylogistics.com" target="_blank" rel="noopener noreferrer">www.hiflylogistics.com</a><br />
+      <br />
+      Hifly International Logistics Co., Ltd.<br />
+      Head Office:<br />
+      1# Room 301, Minigangwan, Zhengzhou, China
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Hifly International Logistics Co., Ltd. All rights reserved.
+  </footer>
+</body>
+</html>
